@@ -4,14 +4,7 @@
 #include "Dice.h"
 using namespace std;
 
-void avarage(int a)
-{
 
-}
-
-void average(double b){
-
-}
 
 int main()
 {
@@ -23,6 +16,9 @@ int main()
 	for (i = 0; i < 10; i++){
 		myDice.roll();
 		myDice.display();
+		
+
+		 
 		 }
 
 

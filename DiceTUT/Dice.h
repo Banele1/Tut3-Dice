@@ -5,8 +5,8 @@ public:
 	Dice();
 	 int roll();
 	 void display();
-	 void average();
-
+	 void average( int, int );
+	 void average(double, int);
 	 ~Dice();
 
 private:

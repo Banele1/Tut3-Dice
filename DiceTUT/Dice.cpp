@@ -18,10 +18,12 @@ int Dice::roll( )
 	{
 		LastRoll = 0;
 		TotalRolls++;
-
+		int Arr[10];
 		// gerate random number
 
 		LastRoll = rand() % 6 + 1;
+		
+
 		score += LastRoll;
 		return score;
 
@@ -31,9 +33,21 @@ void Dice::display(){
 	cout << "your last roll was:" << LastRoll << endl;
 	cout << "Roll result :" << score << endl;
 	cout << "Total Roll :" << TotalRolls << endl << endl;
+	cout << "AVARAGE" << endl;
+	cout << "Average" << endl;
 
 }
+void Dice::average( int TotalRolls, int score){
+	  
+	return;
 
+
+}
+void Dice::average( double arr, int g){
+
+
+
+}
 
 
 
